@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Dom and Api Assignment</title>
+</head>
+<body>
+    <h1 id="title" class="text-center my-5 text-primary">Create Your Desire Team</h1>
+
+    <div class="d-flex gap-3 align-items-center justify-content-center my-5">
+        <input id="comment-box" type="text" class="p-3 w-25" placeholder="search a player...">
+        <button id="add-comment" class="rounded bg-info" style="width: 80px; height: 50px;
+        ">search</button>
+    </div>
+
+    <div class="d-flex p-3">
+        <div class="">
+            <h1 class="mb-3 text-center text-primary">All Players</h1>
+    
+            <div id="user-data" class="my-5 d-flex justify-content-center flex-wrap  gap-5"></div>
+        </div>
+
+        <div class="w-75">
+            <h1 class="text-primary text-center">Group</h1>
+    
+            <div id="group-data" class="my-5 border h-50"></div>
+        </div>
+    </div>
+
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
