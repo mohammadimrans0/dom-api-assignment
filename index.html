@@ -7,28 +7,25 @@
     <title>Dom and Api Assignment</title>
 </head>
 <body>
-    <h1 id="title" class="text-center my-5 text-primary">Create Your Desire Team</h1>
-
-    <div class="d-flex gap-3 align-items-center justify-content-center my-5">
-        <input id="comment-box" type="text" class="p-3 w-25" placeholder="search a player...">
-        <button id="add-comment" class="rounded bg-info" style="width: 80px; height: 50px;
-        ">search</button>
-    </div>
-
-    <div class="d-flex p-3">
-        <div class="">
-            <h1 class="mb-3 text-center text-primary">All Players</h1>
+    <div class="container">
+        <h1 id="title" class="text-center my-5 text-primary">Get Your Meal</h1>
     
-            <div id="user-data" class="my-5 d-flex justify-content-center flex-wrap  gap-5"></div>
+        <div class="d-flex gap-3 align-items-center justify-content-center my-5">
+            <input id="search-meal" type="text" class="p-3 w-50" placeholder="Search a meal (e.g: beef, chicken, pasta)...">
+            <button id="get-meal" class="rounded bg-info text-white" style="width: 100px; height: 50px;">Search</button>
         </div>
-
-        <div class="w-75">
-            <h1 class="text-primary text-center">Group</h1>
     
-            <div id="group-data" class="my-5 border h-50"></div>
+        <div class="row">
+            <div class="col-lg-9">
+                <h1 class="mb-3 text-center text-primary">All Meals</h1>
+                <div id="meal-data" class="my-5 d-flex flex-wrap justify-content-start gap-4"></div>
+            </div>
+    
+            <div class="col-lg-3">
+                <h1 class="text-primary text-center">Order</h1>
+                <div id="group-data" class="my-5 p-5 border h-50" style="min-height: 200px;"></div>
+            </div>
         </div>
-    </div>
-
     </div>
     
     <script src="app.js"></script>
